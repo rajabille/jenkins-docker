@@ -2,4 +2,4 @@ You might not using the similar kind of setup, so you have to make sure GID (Gro
 To check run...
 cat /etc/group | grep docker
 
-to find the gid of docker in your system
+to find the GID of docker in your system
