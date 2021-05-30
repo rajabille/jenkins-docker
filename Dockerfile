@@ -1,3 +1,4 @@
+#You may need to change the base Image of Jenkins in future or the below one also should work
 FROM jenkins/jenkins:lts
 USER root
 
