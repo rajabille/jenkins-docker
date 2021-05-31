@@ -8,10 +8,8 @@ RUN mkdir -p /tmp/download && \
  rm -rf /tmp/download/docker/dockerd && \
  mv /tmp/download/docker/docker* /usr/local/bin/ && \
  rm -rf /tmp/download && \
- 
  #Here we are adding the group called 'docker' with GID '999' -This GID need to be matched with host machine(i.e. where docker engine is running) GID of group 'docker'
  groupadd -g 999 docker && \
-
  #Here we are adding user 'jenkins' to group 'docker'
  usermod -aG docker jenkins
 
